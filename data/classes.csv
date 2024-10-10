@@ -1,0 +1,39 @@
+id;name;kingdom_id;type;icon
+14008;Ассасин;3016;Нага;Classes_assassin_thumb
+14029;Душегуб;3035;Гном;Classes_slayer_thumb
+14012;Титан;3013;Великан;Classes_marauder_thumb
+14014;Драконий страж;3019;Дракон;Classes_dragonguard_thumb
+14036;Духостранник;3084;Оборотень;Classes_spiritwalker_thumb
+14031;Монах;3030;Эльф;Classes_monk_thumb
+14007;Механист;3001;Механизм;Classes_mechanist_thumb
+14001;Рыцарь;3006;Рыцарь;Classes_knight_thumb
+14006;Некромант;3020;Нежить;Classes_necromancer_thumb
+14037;Ткач ночи;3085;Мистик;Classes_nightweaver_thumb
+14034;Элементалист;3080;Элементаль;Classes_elementalist_thumb
+14016;Копье Солнца;3005;Ракша;Classes_hunter_thumb
+14011;Рыцарь смерти;3007;Нежить;Classes_deathknight_thumb
+14017;Вор;3004;Гоблин;Classes_thief_thumb
+14025;Повелитель морей;3036;Морской житель;Classes_tidecaller_thumb
+14004;Лучник;3015;Эльф;Classes_archer_thumb
+14002;Смотритель;3008;Зверь;Classes_warden_thumb
+14020;Шаман;3027;Бык;Classes_shaman_thumb
+14018;Ледяной маг;3011;Фея;Classes_frostmage_thumb
+14023;Дервиш;3024;Монстр;Classes_dervish_thumb
+14032;Варвар;3018;Орк;Classes_barbarian_thumb
+14013;Бард;3003;Дикий народец;Classes_bard_thumb
+14009;Прядильщик;3029;Эльф;Classes_orbweaver_thumb
+14028;Архимаг;3009;Мистик;Classes_archmagus_thumb
+14010;Оракул;3028;Кентавр;Classes_oracle_thumb
+14015;Жрец рун;3012;Гном;Classes_runepriest_thumb
+14027;Оккультист;3021;Демон;Classes_invoker_thumb
+14021;Повелитель чумы;3022;Человек;Classes_plaguelord_thumb
+14026;Корсар;3026;Разбойник;Classes_corsair_thumb
+14035;Геомант;3082;Конструкт;Classes_geomancer_thumb
+14005;Чародей;3017;Демон;Classes_sorcerer_thumb
+14024;Иерофант;3002;Фея;Classes_heirophant_thumb
+14030;Буревестник;3023;Стрикс;Classes_stormcaller_thumb
+14022;Дозорный;3010;Урск;Classes_maskedlord_thumb
+14033;Прорицатель;3037;Демон;Classes_doomsayer_thumb
+14019;Военный жрец;3025;Человек;Classes_warpriest_thumb
+14000;Военачальник;3000;Великан;Classes_warrior_thumb
+14003;Жрец;3014;Божество;Classes_priest_thumb
