@@ -77,7 +77,7 @@ async function processCodes() {
                 const colors = getColors(weapon);
                 displayString = '<div style="display:flex; line-height: 30px; padding: 5px">';
                 displayString += createColoredCircle(colors);
-                displayString += `<img src="assets/weapon.png" alt="Weapon" class="icon">`;
+                displayString += `<img src="assets/weapon.png" alt="Weapon" class="icon" width="34" height="30">`;
                 displayString += `<div> ${weapon.name}</div></div>`;
             } else if (code >= 6000 && code < 8000) {
                 const troop = troops[code];

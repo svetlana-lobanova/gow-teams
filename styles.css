@@ -4,13 +4,19 @@ body {
     background-color: #070F2B
 }
 
+h1 {
+    font-size: clamp(1.1rem, 5vw, 1.4rem);
+}
+
 code {
     display: inline-block;
     margin: 5px;
     padding: 5px;
     background: #7077A1;
     border: 1px solid #1B1A55;
-    color: #070F2B
+    color: #070F2B;
+    width: calc(100% - 40px);
+    font-size: clamp(12px, 3vw, 15px);
 }
 
 .results {
@@ -55,6 +61,7 @@ code {
 
 .color-circle {
     display: inline-block;
+    min-width: 30px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -68,7 +75,28 @@ code {
 }
 
 .icon {
-    width: 30px;
-    height: auto;
+    width: 34px;
+    height: 30px;
     vertical-align: middle;
+    padding-right: 2px;
+}
+
+@media (max-width: 500px) {
+    .info {
+        flex-wrap: wrap;
+    }
+
+    .banner,
+    .class {
+        padding: 0;
+        width: 50%;
+    }
+
+    .banner {
+        order: 2;
+    }
+
+    .class {
+        order: 3;
+    }
 }
