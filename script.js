@@ -97,7 +97,7 @@ async function processCodes() {
         // Вставляем результаты под блоком с кодами
         const resultDiv = document.createElement('div');
         resultDiv.classList.add('info')
-        resultDiv.innerHTML = bannerOutput + '<div class="team">' + output + '</div><div class="class">' + classOutput + '</div>';
+        resultDiv.innerHTML = /*bannerOutput + */'<div class="team">' + output + '</div><div class="class">' + classOutput + '</div>';
         block.parentNode.insertBefore(resultDiv, block.nextSibling);
 
         // Настройка копирования в буфер обмена
