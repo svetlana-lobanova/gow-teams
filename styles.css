@@ -4,6 +4,14 @@ body {
     background-color: #070F2B
 }
 
+a {
+    color: #7077A1;
+}
+
+ul {
+    line-height: 1.5
+}
+
 h1 {
     font-size: clamp(1.1rem, 5vw, 1.4rem);
 }
