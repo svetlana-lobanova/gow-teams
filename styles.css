@@ -48,7 +48,7 @@ code {
 
 .team {
     padding-left: 20px;
-    width: 15rem
+    width: 17rem
 }
 
 .banner {
@@ -98,5 +98,9 @@ code {
 
     .class {
         order: 3;
+    }
+
+    .team {
+        width:100%;
     }
 }
