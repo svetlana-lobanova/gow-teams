@@ -1,5 +1,5 @@
-import { collection, query, where, getDocs } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
-import { db } from './firebase.js';
+import {collection, getDocs, query, where} from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
+import {db} from './firebase.js';
 
 export async function fetchTeams(types) {
     const teamsRef = collection(db, "teams");
@@ -15,8 +15,7 @@ export async function fetchTeams(types) {
                 teamsWithAllTypes.push(data.code);
             }
         });
-        const uniqueTeams = [...new Set(teamsWithAllTypes)];
-        return uniqueTeams;
+        return [...new Set(teamsWithAllTypes)];
     } catch (error) {
         console.error("Ошибка получения данных: ", error);
         return [];
